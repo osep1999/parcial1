@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica4.4</title>
+    <link rel="stylesheet" href="css/practica4.4.css">
+</head>
+
+
+<body>
+    <header>
+        <h2 class="titulo"><center><font color="white">CATALOGO DE PERFUMES</font></center></h2>
+    </header>
+    <nav>
+        <div class="imagen"><img src="https://fraguru.com/mdimg/perfume/375x500.410.jpg" width="128px" height="200px" alt=""><div><center><h5>aqua de gio: 500$</h5></center></div></div>
+        <div class="imagen"><img src="https://m.media-amazon.com/images/I/61r6a8QLppL._AC_SX522_.jpg" width="128px" height="200px" alt=""><div><center><h5>bleu Lbel: 850$</h5></center></div></div>
+        <div class="imagen"><img src="https://fraguru.com/mdimg/perfume/375x500.42944.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume Calvin Klein: 900$</h5></center></div></div>
+        <div class="imagen"><img src="https://fraguru.com/mdimg/perfume/375x500.6751.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume bond: 840$</h5></center></div></div>
+    </nav>
+    <main id="main">
+        <div class="imagen"><img id="img
+        " src="https://m.media-amazon.com/images/I/51iiuHC8ahL._AC_SX679_.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume sauvage: 300$</h5></center></div></div>
+        <div class="imagen"><img src="https://http2.mlstatic.com/D_NQ_NP_723650-MLM32701841646_102019-W.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume forever: 400$</h5></center></div></div>
+        <div class="imagen"><img src="https://img.prvstatic.com.mx/front/get/photo/292036_-_images_-_products_-_7055900-UNICO_-_templ1.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume elizabeth : 640$</h5></center></div></div>
+        <div class="imagen"><img src="https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw0b3046af/images/31588779/large/31588779_x1.jpg" width="128px" height="200px" alt=""><div><center><h5>Perfume versace: 830$</h5></center></div></div>
+
+    </main>
+    <footer>
+        
+    </footer>
+    <p id="demo">Hola maestra</p>
+    <script>
+        // const x = document.getElementById("main");
+        // const y = x.getElementsByTagName("div");
+        // console.log(y);
+        // console.log(x);
+
+       // document.getElementById("img").Src="https://th.bing.com/th/id/R.d20e6ca66c31a7e13384ce7c25ab0fda?rik=ruF%2bKPCOySLzDA&pid=ImgRaw&r=0"
+        // const x = document.form["frml"];
+        // let texto="";
+        // for(let i= 0 ;i<x.lengh;i++){
+        //     texto +=x.elements [i].value + "<br>";
+        // }
+
+        // document.getElementById("demo").innerHTML = texto;
+        // console.log(x);
+    
+    </script>
+</body>
+</html>
+header
+{
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+}
+
+.imagen
+{
+    float: left;
+    padding: 100px;
+    background-color: lightgreen;
+    border: 7px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav
+{
+    width: 1500px;
+    height: 500px;
+    background-color: lightyellow; 
+}
+
+main
+{
+    width: 1500px;
+    height: 500px;
+    background-color: lightyellow;
+}
+.titulo
+{
+    margin: 5px;
+    padding-top: 10px;
+}
+footer
+{
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+}
