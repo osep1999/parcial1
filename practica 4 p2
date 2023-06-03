@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica4.3</title>
+    <link rel="stylesheet" href="css/practica4.3.css">
+</head>
+<body background="https://images6.alphacoders.com/110/thumb-1920-1105984.png">
+    <header>
+        <section class="seccion1"><h3><a href="https://www.google.com.mx/imghp?hl=es">IMAGENES</a></h3></section>
+        <section class="seccion1"><h3>|</h3></section>
+        <section class="seccion1"><h3><a href="https://www.google.com.mx/maps/preview">MAPS</a></h3></section>
+        <section class="seccion1"><h3>|</h3></section>
+        <section class="seccion1"><h3><a href="https://news.google.com/topstories?hl=es-419&gl=MX&ceid=MX:es-419">NEWS</a></h3></section>
+        <section class="seccion1"><h3>|</h3></section>
+        <section class="seccion1"><h3><a href="http://cursos.utmetropolitana.edu.mx/moodle/course/index.php?categoryid=102">MORE</a></h3></section> 
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <main>
+        <h1><center> <font color="white">TOOGLE</font></center></h1>
+        <center><li><form action="" id="frm1" class="frm1" name="frm1"><input class="busqueda" type="text" placeholder="Escribe lo que quieres buscar"></form></li></center>
+        <center class="seccion2"><a href="">  Google Search </a></center>
+        <center class="seccion3"><a href="https://www.google.com/doodles">  I'm feeling lucky </a></center>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
+header
+{
+    height: 330px;
+    width: 1400px;
+    float: left;
+    list-style: none;
+}
+.seccion1
+{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+main
+{
+    height: 330px;
+    width: 1400px;
+    float: left;
+    list-style: none;
+}
+.busqueda
+{
+   width: 1000px;
+   height: 40px;
+}
+.seccion2
+{
+    border: 5px solid black;
+    margin: 5px;
+    float: left;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.seccion3
+{
+    border: 5px solid black;
+    margin: 5px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
