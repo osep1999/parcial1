@@ -1,0 +1,201 @@
+nav{
+    height: 100px;
+    width: 1000px;
+    background-color: royalblue;
+    float: left;
+    border-top: 10px solid black;
+    border-bottom: 5px solid black ;
+
+}
+nav ul {
+list-style: none;
+}
+nav ul li{
+    float: left;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+.box1{
+    background-color: white;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.box2{
+    background-color: white;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.box3{
+    background-color: white;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.box4{
+    background-color: white;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.box5{
+    background-color: white;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+header
+{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: blue;
+    height: 300px;
+    width: 1000px;
+    float: left;
+}
+
+.banner
+{
+    height: 280px;
+    margin: 10px;
+    border: 10px;
+    float: left;
+    background-color: white;
+    width: 800px;
+}
+
+header li
+{
+    list-style: none;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.logo
+{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+}
+
+.login
+{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+}
+
+.form
+{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+}
+
+main{
+    background-color: grey;
+    float: left;
+    height: 500px;
+    width: 1000px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.aside1{
+    background-color: white;
+    height: 480px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.article
+{
+    background-color: white;
+    height: 480px;
+    width: 500px;
+    float: left;
+    margin: 10px;
+}
+
+.aside2{
+    background-color: white;
+    height: 480px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+
+footer
+{
+    background-color: yellow;
+    height: 50px;
+    width: 1000px;
+    float: left;
+    border-top: 5px solid black;
+    border-bottom: 10px black;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 2</title>
+    <link rel="stylesheet" href="practica2.css">
+</head>
+<body>
+    
+<nav>
+    <ul>
+        <li class="box1">box</li>
+        <li class="box2">box</li>
+        <li class="box3">box</li>
+        <li class="box4">box</li>
+        <li class="box5">box</li>
+    </ul>
+</nav>
+
+<header>
+<section class="banner" id="banner"> Banner  </section>
+<li class="logo" id="logo"> Logo </li>
+<li class="login" id="login"> Login </li>
+<li class="form" id="form"> Form </li>
+</header>
+
+<main>
+    <aside class="aside1" id="izq">
+        Aside
+    </aside>
+
+    <article class="article" id="article">
+        Article
+    </article>
+
+    <aside class="aside2" id="der">
+        Aside
+    </aside>
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>
+
