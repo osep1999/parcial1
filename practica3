@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 3</title>
+    <link rel="stylesheet" href="practica3.css">
+</head>
+<body>
+    <header></header>
+
+<div class="div" id="principal">
+   
+    <h2>Curriculum Vitae de Jose Carlos Perez Estrella</h2>
+   
+    <fieldset id="demo">  
+        <legend>Datos Personales</legend>
+        <ul class="list">
+            <li><p><b>Nombre</b></p>Jose Carlos Perez Estrella</li>
+            <li><p><b>direccion</b></p>Calle 111 834 x66b col. castilla camara</li>
+            <li><p><b>Telefono</b></p>9991047147</li>
+            <li><p><b>Correo</b></p>josecharlip@gmail.com</li>
+            <li><p><b>Nacionalidad</b></p>Mexicana</li>
+            <li><p><b>Fecha de nacimiento</b></p>28 de abril Del 1996</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>educacion y formacion</legend>
+        <ul>
+            <li><p><b>primaria</b></p> vicente maria velasquez</li>
+            <li><p><b>secundaria</b></p>secundaria "gonzalo lopez manzanero"</li>
+            <li><p><b>Preparatoria</b></p>Luz Mena</li>
+            <li><p><b>Universidad</b></p>2021-2024 Estudio en la Universidad Tecnologica Metropolitana "UTM"</li>
+            
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Experiencia Laboral</legend>
+        <ul>MDY Telecom</ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>lengua materna</legend>
+        <ul>Español</ul>
+    </fieldset>
+    <fieldset>
+        <legend>Otros idiomas</legend>
+        <ul>Ingles fluidamente</ul>
+    </fieldset>
+    <fieldset>
+        <legend>Capacidades y aptitudes tecnicas</legend>
+        <ul>Conocimientos avanzados de desarrollo de software</ul>
+    </fieldset>
+    <fieldset>
+        <legend>Permiso de conduccion</legend>
+        <ul>Cuento con permiso de conducir</ul>
+    </fieldset>
+    <fieldset>
+        <legend>Informacion Adicional</legend>
+        <ul>A</ul>
+    </fieldset>
+
+
+</div>
+body{
+    background-color: lightgreen;
+}
+
+.div
+{
+background-color: aliceblue;
+float: right;
+width: 1400px;
+height: 1500px;
+}
+header
+{
+    
+}
